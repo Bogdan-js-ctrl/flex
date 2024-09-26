@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid green;
+    width: 100%;
+}
+.container_item-element {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+}
+.container_item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    margin: 20px;
+}
+.container_item-element:hover {
+    background-color: grey;
+}
+.container_item-element:first-child {
+    height: 200px;
+}
+.container_item-element:last-child {
+    height: 500px;
+}
+.container_item-element:nth-child(2){
+    height: 300px;
+}
